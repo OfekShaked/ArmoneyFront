@@ -1,0 +1,138 @@
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.exe
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.deps.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.runtimeconfig.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.runtimeconfig.dev.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.Views.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.Views.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csprojAssemblyReference.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.AssemblyInfoInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.AssemblyInfo.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csproj.CoreCompileInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorAssemblyInfo.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorAssemblyInfo.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\staticwebassets\BuyMeProject.StaticWebAssets.Manifest.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\staticwebassets\BuyMeProject.StaticWebAssets.xml
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\BuyMeProject.styles.css
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.TagHelpers.input.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.TagHelpers.output.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorCoreGenerate.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SideMenu.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorTargetAssemblyInfo.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorTargetAssemblyInfo.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.Views.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.genruntimeconfig.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csproj.CopyComplete
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Login.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_cartItem.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShoppingCart.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ShoppingCartItem.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProductDetails.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SideMenuItem.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.exe
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.deps.json
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.runtimeconfig.json
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.runtimeconfig.dev.json
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.Views.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\BuyMeProject.Views.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csprojAssemblyReference.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.AssemblyInfoInputs.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.AssemblyInfo.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csproj.CoreCompileInputs.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorAssemblyInfo.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorAssemblyInfo.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\staticwebassets\BuyMeProject.StaticWebAssets.Manifest.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\staticwebassets\BuyMeProject.StaticWebAssets.xml
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\BuyMeProject.styles.css
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.TagHelpers.input.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.TagHelpers.output.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorCoreGenerate.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProductDetails.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShoppingCart.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_cartItem.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Login.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ShoppingCartItem.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SideMenu.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SideMenuItem.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorTargetAssemblyInfo.cache
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.RazorTargetAssemblyInfo.cs
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.Views.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.csproj.CopyComplete
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.dll
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.pdb
+C:\Users\msvs\Downloads\asp\BuyMeProject\obj\Debug\netcoreapp3.1\BuyMeProject.genruntimeconfig.cache

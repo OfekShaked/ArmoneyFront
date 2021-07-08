@@ -1,0 +1,41 @@
+﻿@inject SerializeService serializeService
+@{
+    var username = Context.Request.Cookies["userName"];
+    bool isLoggedIn = false;
+    string registerOrUpdate = "Register";
+    if (username != null)
+    {
+        isLoggedIn = true;
+        registerOrUpdate = "Update profile";
+    }
+}
+<link rel="stylesheet" href="~/css/sidebar.css" />
+<div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Buy Me</div>
+    <div class="list-group list-group-flush">
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Index" }, { "Controller", "Home" },{"MenuItemTitle","Home" } }' />
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Register" }, { "Controller", "Home" },{"MenuItemTitle",registerOrUpdate } }' />
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "ShoppingCart" }, { "Controller", "Home" },{"MenuItemTitle","Shopping Cart" } }' />
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AboutUs" }, { "Controller", "Home" },{"MenuItemTitle","About Us" } }' />
+
+        @{
+            if (isLoggedIn)
+            {
+                <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AddProduct" }, { "Controller", "Home" },{"MenuItemTitle","Add New Product" } }' />
+            }
+        }
+        @{
+            var loginData = TempData["loginModel"];
+            TempData.Remove("loginModel");
+        }
+        @if (loginData != null)
+        {
+            var loginModel = (LoginModel)serializeService.StringToObject(loginData.ToString());
+            <partial name="_Login" model="loginModel" />
+        }
+        else
+        {
+            <partial name="_Login" model="null" />
+        }
+    </div>
+</div>

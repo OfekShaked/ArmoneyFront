@@ -1,0 +1,37 @@
+﻿@model Product
+@{
+    var username = Context.Request.Cookies["userName"];
+}
+<link rel="stylesheet" href="~/css/cartItem.css" />
+<div class="card">
+    <div class="card-body">
+        <div class="card-img-actions">
+            <div class="w3-display-container mySlides w3-animate-opacity">
+                <img src="data:image/png;base64,@Model.Picture1" class="img-item-width">
+            </div>
+            <div class="w3-display-container mySlides w3-animate-opacity">
+                <img src="data:image/png;base64,@Model.Picture2" class="img-item-width">
+            </div>
+            <div class="w3-display-container mySlides w3-animate-opacity">
+                <img src="data:image/png;base64,@Model.Picture3" class="img-item-width">
+            </div>
+            <button class="w3-button w3-light-grey noselection w3-display-left minusBtn">&#10094;</button>
+            <button class="w3-button w3-light-grey noselection w3-display-right plusBtn">&#10095;</button>
+            <span class="img-counter"></span>
+        </div>
+    </div>
+</div>
+<div class="card-body bg-light text-center">
+    <div class="mb-2">
+        <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">@Model.Title</a> </h6> <a href="#" class="text-muted" data-abc="true">@Model.ShortDescription</a>
+    </div>
+    <h3 class="mb-0 font-weight-semibold">$@Model.Price</h3>
+    <form asp-action="ProductDetails" asp-controller="Product" asp-route-productId="@Model.Id">
+        <div class="mb-4"><button type="submit" class="btn bg-info" ><i class="fas fa-info mr-2"></i>More details</button> </div>
+    </form>
+        <form method="post" asp-action="AddProductToCart" asp-controller="Product">
+        <input type="hidden" name="username" value="@username" />
+        <input type="hidden" name="productId" value="@Model.Id" />
+        <button type="submit" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+    </form>
+</div>

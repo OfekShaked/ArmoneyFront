@@ -1,0 +1,23 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/shoppingPage.css" />
+<div class="container">
+<div class="row">
+    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Price" class="btn btn-primary">Sort By Price</a></div>
+    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Title" class="btn btn-primary">Sort By Title</a></div>
+    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Date" class="btn btn-primary">Sort By Date</a></div>
+</div>
+</div>
+<div class="shop-container mt-5 mb-5 mr-5 ml-4">
+    @foreach (var product in Model)
+    {
+        <div class="ad-item">
+            <partial name="_CartItem" model="product" />
+        </div>
+    }
+</div>
+@section Scripts {
+    <script src="~/js/cartItem.js"></script>
+}

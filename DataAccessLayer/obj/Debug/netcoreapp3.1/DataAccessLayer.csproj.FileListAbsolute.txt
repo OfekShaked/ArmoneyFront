@@ -1,0 +1,30 @@
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\msvs\Downloads\asp\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache

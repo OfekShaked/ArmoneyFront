@@ -1,0 +1,65 @@
+﻿@model ProductModel
+<link rel="stylesheet" href="~/css/registration.css" />
+<div class="card bg-light">
+    <article class="card-body mx-auto">
+        <h4 class="card-title mt-3 text-center">Create Product</h4>
+        <form method="post" asp-controller="Product" asp-action="AddProduct" enctype="multipart/form-data" >
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fas fa-heading mr-1"></i> Title </span>
+                </div>
+                <input asp-for="Title" class="form-control" placeholder="Title" type="text">
+                <span asp-validation-for="Title" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fas fa-align-justify mr-1"></i> Short Description </span>
+                </div>
+                <textarea asp-for="ShortDescription" class="form-control" placeholder="Short Description" type="text" maxlength="500"></textarea>
+                <span asp-validation-for="ShortDescription" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fas fa-align-justify mr-1"></i> Long Description </span>
+                </div>
+                <textarea asp-for="LongDescription" class="form-control" placeholder="Long Description" type="text" maxlength="4000"></textarea>
+                <span asp-validation-for="LongDescription" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fas fa-dollar-sign mr-1"></i> Price </span>
+                </div>
+                <input asp-for="Price" class="form-control" placeholder="Price" type="number" min="0">
+                <span asp-validation-for="Price" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="far fa-image mr-1"></i> Picture 1 </span>
+                </div>
+                <input asp-for="Picture1" class="form-control" type="file" accept="image/x-png,image/gif,image/jpeg">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="far fa-image mr-1"></i> Picture 2 </span>
+                </div>
+                <input asp-for="Picture2" class="form-control" type="file" accept="image/x-png,image/gif,image/jpeg">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="far fa-image mr-1"></i> Picture 3 </span>
+                </div>
+                <input asp-for="Picture3" class="form-control" type="file" accept="image/x-png,image/gif,image/jpeg">
+            </div> <!-- form-group// -->
+            <div class="form-group">
+                <button type="submit" id="productFormSubmit" class="btn btn-primary btn-block" tag="inputBtn"> Create Product  </button>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div asp-validation-summary="All"></div>
+            </div> <!-- form-group// -->
+        </form>
+    </article>
+</div> <!-- card.// -->
+@section Scripts {
+    <script src="~/js/addProduct.js"></script>
+}

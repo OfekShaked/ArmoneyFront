@@ -1,0 +1,9 @@
+﻿
+@if (ActionHighlighterHelper.IsCurrentControllerAndAction(ViewData["Controller"].ToString(), ViewData["Action"].ToString(), ViewContext))
+{
+    <a class="list-group-item list-group-item-action active">@ViewData["MenuItemTitle"].ToString()</a>
+}
+else
+{
+<a asp-area="" asp-controller="@ViewData["Controller"].ToString()" asp-action="@ViewData["Action"].ToString()" class="list-group-item list-group-item-action bg-light">@ViewData["MenuItemTitle"].ToString()</a>
+}

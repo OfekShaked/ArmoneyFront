@@ -1,0 +1,18 @@
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\ofeks\Desktop\סלע\Asp.net core\AspProject\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\msvs\Downloads\asp\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\msvs\Downloads\asp\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\msvs\Downloads\asp\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\msvs\Downloads\asp\Common\obj\Debug\netstandard2.0\Common.pdb

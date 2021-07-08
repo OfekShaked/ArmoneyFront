@@ -1,0 +1,83 @@
+﻿@model UserModel
+@{ 
+    ViewData["Title"] = "Register";
+    bool isLoggedIn = false;
+    string action = "Register";
+    if(Context.Request.Cookies["userName"] != null)
+    {
+        isLoggedIn = true;
+        action = "Update";
+    }
+}
+
+<script src="~/js/registerScript.js"></script>
+<link rel="stylesheet" href="~/css/registration.css"/>
+<div class="card bg-light">
+    <article class="card-body mx-auto">
+        <h4 class="card-title mt-3 text-center">@action Account</h4>
+        <form method="post" asp-controller="Account" asp-action="@action">
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user-circle"></i> </span>
+                </div>
+                @{ if (isLoggedIn)
+                   {
+                    <input asp-for="UserName" class="form-control" placeholder="Username" type="text" disabled="disabled">
+                   }
+                   else
+                   {
+                    <input asp-for="UserName" class="form-control" placeholder="Username" type="text"> }
+                   }
+                <span asp-validation-for="UserName" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input asp-for="FirstName" class="form-control" placeholder="First name" type="text">
+                <span asp-validation-for="FirstName" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input asp-for="LastName" class="form-control" placeholder="Last name" type="text">
+                <span asp-validation-for="LastName" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                </div>
+                <input asp-for="Email" class="form-control" placeholder="Email address" type="email">
+                <span asp-validation-for="Email" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-calendar"></i> </span>
+                </div>
+                <input asp-for="BirthDate" class="form-control" type="date" min="1900-01-01" max="2020-01-01">
+                <span asp-validation-for="BirthDate" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input asp-for="Password" class="form-control" placeholder="Create password" type="password">
+                <span asp-validation-for="Password" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input asp-for="PasswordValidator" class="form-control" placeholder="Repeat password" type="password">
+                <span asp-validation-for="PasswordValidator" class="validation-message"></span>
+            </div> <!-- form-group// -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" tag="inputBtn"> @action  </button>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div asp-validation-summary="All"></div>
+            </div> <!-- form-group// -->
+        </form>
+    </article>
+    </div> <!-- card.// -->

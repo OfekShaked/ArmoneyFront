@@ -1,0 +1,79 @@
+﻿@model LoginModel
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+@{ if (Context.Request.Cookies["userName"] == null)
+    {
+        <div class="card">
+        <article class="card-body">
+            <a asp-action="Register" asp-controller="Home" class="float-right btn btn-outline-primary">Sign up</a>
+            <h4 class="card-title text-center mb-4 mt-1">Sign in</h4>
+            <hr>
+            <form asp-action="Login" asp-controller="Account" id="partialForm" data-ajax="true" data-ajax-update="#partialform" data-ajax-mode="replace">
+                @{ if (Model != null)
+                    {
+            <div class="alert-danger">Username or password is incorrect</div> 
+                    } 
+                 }
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input class="form-control" placeholder="Username" type="text" asp-for="UserName">
+                    </div>  <!-- input-group.// -->
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input class="form-control" placeholder="******" type="password" asp-for="Password">
+                    </div> <!-- input-group.// -->
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+
+                </div> <!-- form-group// -->
+            </form>
+        </article>
+    </div> <!-- card.// --> }
+                else
+                {
+                    var currentHour = DateTime.Now.Hour;
+    string timeOfDay = "";
+                    switch (currentHour)
+                    {
+                        case 5:
+                        case 6:
+                        case 7:
+                        case 8: timeOfDay = "Early Morning"; break;
+                        case 9:
+                        case 10:
+                        case 11:
+                        case 12: timeOfDay = "Morning"; break;
+                        case 13:
+                        case 14:
+                        case 15:
+                        case 16: timeOfDay = "Noon"; break;
+                        case 17:
+                        case 18:
+                        case 19:
+                        case 20: timeOfDay = "Evening"; break;
+                        case 21:
+                        case 22:
+                        case 23:
+                        case 24: timeOfDay = "Night"; break;
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4: timeOfDay = "Late Night"; break;
+                    }
+
+                    <h4 class="card-title text-center mb-4 mt-1">Hello @Context.Request.Cookies["userName"] Have a Good @timeOfDay</h4>
+                    <form method="post" asp-action="Logout" asp-controller="Account">
+                        <input type="hidden" name="controller" value="@ViewContext.RouteData.Values["Controller"]" />
+                        <input type="hidden" name="action" value="@ViewContext.RouteData.Values["Action"]" />
+                        <button type="submit" class="btn btn-primary btn-block"> Logout  </button>
+                     </form>
+                } }
