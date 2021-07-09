@@ -1,0 +1,49 @@
+﻿@model Expenses
+<link rel="stylesheet" href="~/css/registration.css" />
+<div class="card bg-light">
+    <article class="card-body mx-auto">
+        <h4 class="card-title mt-3 text-center">Add Expense</h4>
+        <form method="post" asp-controller="Product" asp-action="AddNewExpense">
+           
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i>army mandatory</span>
+                </div>
+
+                <input asp-for="army_mandatory" class="form-control" type="number">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i>army pleasure </span>
+                </div>
+                <input asp-for="army_pleasure" class="form-control" type="number">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-calendar"></i>home mandatory </span>
+                </div>
+                <input asp-for="home_mandatory" class="form-control" type="number">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i>home pleasure </span>
+                </div>
+                <input asp-for="home_pleasure" class="form-control" placeholder="Home pleasure" type="number">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i>home pleasure </span>
+                </div>
+                <input asp-for="savings" class="form-control" placeholder="Savings" type="number">
+            </div> <!-- form-group// -->
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" tag="inputBtn"> Add  </button>
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div asp-validation-summary="All"></div>
+            </div> <!-- form-group// -->
+        </form>
+    </article>
+</div> <!-- card.// -->

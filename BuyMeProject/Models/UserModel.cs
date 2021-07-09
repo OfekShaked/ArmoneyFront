@@ -8,24 +8,22 @@ namespace BuyMeProject.Models
 {
     public class UserModel
     {
-        [Required(ErrorMessage = "First name is required")]
-        public string FirstName { get; set; }
-        [Required(ErrorMessage = "Last name is required")]
-        public string LastName { get; set; }
-        [Required(ErrorMessage = "Birth date is required")]
-        [CustomBirthDateValidation]
-        public DateTime BirthDate { get; set; }
-        [Required(ErrorMessage = "Email is required")]
-        [EmailAddress(ErrorMessage = "Email must be valid")]
-        public string Email { get; set; }
-        [Required(ErrorMessage = "User name is required")]
-        [CustomUsernameValidation]
-        public string UserName { get; set; }
-        [Required(ErrorMessage = "Password is required")]
-        public string Password { get; set; }
-        [Required(ErrorMessage = "Validation password is required")]
-        [Compare("Password",ErrorMessage ="Passwords must be identical")]
+        public string first_name { get; set; }
+        public string last_name { get; set; }
+        public string email { get; set; }
+        public string password { get; set; }
         public string PasswordValidator { get; set; }
+
+        public string phone { get; set; }
+        public string soldier_type { get; set; }
+        public string soldier_tash_type { get; set; }
+        public bool is_lone_soldier { get; set; }
+        public int current_money { get; set; }
+        public int money_addons { get; set; }
+        public int additional_income { get; set; }
+        public string target_type { get; set; }
+        public int money_target { get; set; }
+        public int days_home { get; set; }
 
     }
 }

@@ -29,7 +29,7 @@ namespace BuyMeProject.Controllers
         public IActionResult Index()
         {
             ViewBag.PageHeader = "Home Page";
-            var products = _productService.GetAllAvailableProducts();
+            var products = new List<Product>();
             return View(products);
         }
 
@@ -44,50 +44,51 @@ namespace BuyMeProject.Controllers
             }
             return View("Registration");
         }
+        public IActionResult ShoppingCart()
+        {
+            var list = new List<Expenses>
+            {
+                new Expenses{home_mandatory=143, savings=4000,month="1",army_mandatory=123,army_pleasure=123,home_pleasure=23},
+                new Expenses{home_mandatory=143, savings=4000,month="2",army_mandatory=123,army_pleasure=123,home_pleasure=123},
+                new Expenses{home_mandatory=14, savings=3000,month="3",army_mandatory=13,army_pleasure=1234,home_pleasure=223},
+                new Expenses{home_mandatory=143, savings=4000,month="4",army_mandatory=123,army_pleasure=123,home_pleasure=23},
+                new Expenses{home_mandatory=143, savings=4000,month="5",army_mandatory=123,army_pleasure=123,home_pleasure=253},
+            };
+            return View("ShoppingCart");
+        }
 
         private static UserModel UserToUserModel(User user)
         {
             return new UserModel
             {
-                UserName = user.UserName,
-                BirthDate = user.BirthDate,
-                Email = user.Email,
-                FirstName = user.FirstName,
-                LastName = user.LastName
             };
         }
 
         public IActionResult AddProduct()
         {
-            ViewBag.PageHeader = "Add Product Page";
-            return View("AddProduct");
+            ViewBag.PageHeader = "Add Expense Page";
+            return View("AddExpense");
         }
         public IActionResult AboutUs()
         {
             ViewBag.PageHeader = "About Us Page";
+            ViewBag.num = 60;
+            ViewBag.Expenses = "1500";
             return View("AboutUs");
         }
-        public IActionResult ShoppingCart()
+        public IActionResult Suggestions()
         {
-            ViewBag.PageHeader = "Shopping Cart Page";
-            List<Product> productsOnCart = new List<Product>();
-            var username = Request.Cookies["userName"];
-            if (username != null)
-            {
-                productsOnCart = _accountService.GetProductsByUser(username); //Get logged in person cart
-            }
-            else
-            {
-                //Get guest cart if exist
-                var guestCart = Request.Cookies["guestCart"];
-                if (guestCart != null)
-                {
-                    var cartProductIds = (List<long>)_serializeService.StringToObject(guestCart);
-                    productsOnCart = _productService.GetProductsOfGuestByIds(cartProductIds);
-                }
-            }
-            return View("ShoppingCart", productsOnCart);
+            ViewBag.PageHeader = "suggestions Page";
+            return View("Suggestions");
         }
+        public IActionResult Lessons()
+        {
+            ViewBag.PageHeader = "Lessons Page";
+            return View("Lessons");
+        }
+
+
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -91,3 +91,9 @@ body {
     font-weight:900;
     color:black;
 }
+.homePage {
+    direction: rtl;
+    float: right;
+    color: black;
+    text-align: center;
+}

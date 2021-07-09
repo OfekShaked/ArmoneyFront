@@ -1,48 +1,43 @@
 ﻿<link rel="stylesheet" href="~/css/aboutUs.css" />
-<div class="about-section">
-    <h1>About Us Page</h1>
-    <p>I am Ofek Shaked.</p>
-    <p>This is my first asp.net Project</p>
-</div>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
 
-<h2 class="text-align-center">My Team</h2>
-<div class="row">
-    <div class="column">
-        <div class="card">
-            <img src="~/assets/ofekPic.jpeg" alt="Ofek" class="img-person-width">
-            <div class="container">
-                <h2>Ofek Shaked</h2>
-                <p class="title">CEO & Founder</p>
-                <p>Im the creator of this website.</p>
-                <p>ofekshaked1999@gmail.com</p>
-                
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container rtl">
+        <h1>
+            הפרוגרס בר שלי
+        </h1>
+        @if (ViewBag.num < 50)
+        {
+<p>.אתה בדרך</p> }
+            else
+            {
+<p> עוד קצת!!</p>}
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="@ViewBag.num" aria-valuemin="0" aria-valuemax="100" style="width:@ViewBag.num%">
+                @ViewBag.num%
             </div>
+        </div>
+        <div>
+            Expenses: @ViewBag.Expenses
         </div>
     </div>
 
-    <div class="column">
-        <div class="card">
-            <img src="/w3images/team2.jpg" alt="Mike" class="img-person-width">
-            <div class="container">
-                <h2>Mike Ross</h2>
-                <p class="title">Art Director</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>mike@example.com</p>
-                <p><button class="button">Contact</button></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="column">
-        <div class="card">
-            <img src="/w3images/team3.jpg" alt="John"  class="img-person-width">
-            <div class="container">
-                <h2>John Doe</h2>
-                <p class="title">Designer</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>john@example.com</p>
-                <p><button class="button">Contact</button></p>
-            </div>
-        </div>
-    </div>
-</div>
+</body>
+</html>

@@ -14,14 +14,23 @@
     <div class="sidebar-heading">Buy Me</div>
     <div class="list-group list-group-flush">
         <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Index" }, { "Controller", "Home" },{"MenuItemTitle","Home" } }' />
-        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Register" }, { "Controller", "Home" },{"MenuItemTitle",registerOrUpdate } }' />
-        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "ShoppingCart" }, { "Controller", "Home" },{"MenuItemTitle","Shopping Cart" } }' />
-        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AboutUs" }, { "Controller", "Home" },{"MenuItemTitle","About Us" } }' />
+        @{
+            if (!isLoggedIn)
+            {
+                <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Register" }, { "Controller", "Home" },{"MenuItemTitle",registerOrUpdate } }' />
+            }
+        }
+
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "ShoppingCart" }, { "Controller", "Home" },{"MenuItemTitle","Where is my money" } }' />
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Suggestions" }, { "Controller", "Home" },{"MenuItemTitle","Suggestions" } }' />
+        <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "Lessons" }, { "Controller", "Home" },{"MenuItemTitle","Lessons" } }' />
+
 
         @{
             if (isLoggedIn)
             {
-                <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AddProduct" }, { "Controller", "Home" },{"MenuItemTitle","Add New Product" } }' />
+                <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AboutUs" }, { "Controller", "Home" },{"MenuItemTitle","Progress Bar" } }' />
+                <partial name="_SideMenuItem" view-data='@new ViewDataDictionary(ViewData) { { "Action", "AddProduct" }, { "Controller", "Home" },{"MenuItemTitle","Add New Expense" } }' />
             }
         }
         @{

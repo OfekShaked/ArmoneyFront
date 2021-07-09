@@ -40,7 +40,7 @@ namespace BuyMeProject.Models
                 return new ValidationResult("Incorrect username or password");
             }
 
-            var myContent = JsonConvert.SerializeObject(new  {Email= value.ToString(),Password= password});
+            var myContent = JsonConvert.SerializeObject(new  {email= value.ToString(),password= password});
             var buffer = Encoding.UTF8.GetBytes(myContent);
             var byteContent = new ByteArrayContent(buffer);
             byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");

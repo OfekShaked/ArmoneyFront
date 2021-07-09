@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1+ocKNpczn49rNS3kjxud2uPoK7R5G0EOHnEbaY+WIg1oa/Bl6pnabFpNuPUV2VP+25r9pwMy3lQQG50t2n8iQ==",
+  "dgSpecHash": "5ClDrMe+YtUqzAFlc8gVCwKO5B+cGR+hS/xiVj2Gf+HzOUVZ8BLB8axjEwAPxUc8vZYQbnJJ7gdjpWOMujXs8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\Common\\Common.csproj",
+  "projectFilePath": "C:\\Users\\msvs\\Downloads\\ArmoneyFront\\ArmoneyFront\\Common\\Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\talor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\talor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

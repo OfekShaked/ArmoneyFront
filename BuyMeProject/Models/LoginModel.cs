@@ -10,9 +10,9 @@ namespace BuyMeProject.Models
     public class LoginModel
     {
         [Required(ErrorMessage = "Username cannot be empty")]
-        [CustomLoginValidation("Password")]
-        public string Email { get; set; }
+        [CustomLoginValidation("password")]
+        public string email { get; set; }
         [Required(ErrorMessage = "Password cannot be empty")]
-        public string Password { get; set; }
+        public string password { get; set; }
     }
 }

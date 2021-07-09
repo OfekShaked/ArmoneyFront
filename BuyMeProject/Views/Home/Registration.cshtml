@@ -1,77 +1,117 @@
 ﻿@model UserModel
-@{ 
-    ViewData["Title"] = "Register";
-    bool isLoggedIn = false;
-    string action = "Register";
-    if(Context.Request.Cookies["userName"] != null)
-    {
-        isLoggedIn = true;
-        action = "Update";
-    }
-}
+@{ ViewData["Title"] = "Register";
+                bool isLoggedIn = false;
+                string action = "Register";
+                if (Context.Request.Cookies["userName"] != null)
+                {
+                    isLoggedIn = true;
+                    action = "Update";
+                } }
 
 <script src="~/js/registerScript.js"></script>
-<link rel="stylesheet" href="~/css/registration.css"/>
+<link rel="stylesheet" href="~/css/registration.css" />
 <div class="card bg-light">
     <article class="card-body mx-auto">
-        <h4 class="card-title mt-3 text-center">@action Account</h4>
+        <h4 class="card-title mt-3 text-center">טופס הרשמה</h4>
         <form method="post" asp-controller="Account" asp-action="@action">
-            <div class="form-group input-group">
+            <!--<div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-user-circle"></i> </span>
                 </div>
-                @{ if (isLoggedIn)
-                   {
-                    <input asp-for="UserName" class="form-control" placeholder="Username" type="text" disabled="disabled">
-                   }
-                   else
-                   {
-                    <input asp-for="UserName" class="form-control" placeholder="Username" type="text"> }
-                   }
-                <span asp-validation-for="UserName" class="validation-message"></span>
-            </div> <!-- form-group// -->
+            </div>-->
+            <!-- form-group// -->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                 </div>
-                <input asp-for="FirstName" class="form-control" placeholder="First name" type="text">
-                <span asp-validation-for="FirstName" class="validation-message"></span>
-            </div> <!-- form-group// -->
+                <input asp-for="first_name" class="form-control" placeholder="שם פרטי" type="text">
+            </div> <!-- form-group//  שם פרטי-->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                 </div>
-                <input asp-for="LastName" class="form-control" placeholder="Last name" type="text">
-                <span asp-validation-for="LastName" class="validation-message"></span>
-            </div> <!-- form-group// -->
+                <input asp-for="last_name" class="form-control" placeholder="שם משפחה" type="text">
+            </div> <!-- form-group//  שם משפחה-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input asp-for="phone" class="form-control" placeholder="מספר טלפון" type="tel">
+            </div> <!-- form-group//  טלפון-->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                 </div>
-                <input asp-for="Email" class="form-control" placeholder="Email address" type="email">
-                <span asp-validation-for="Email" class="validation-message"></span>
-            </div> <!-- form-group// -->
-            <div class="form-group input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-calendar"></i> </span>
-                </div>
-                <input asp-for="BirthDate" class="form-control" type="date" min="1900-01-01" max="2020-01-01">
-                <span asp-validation-for="BirthDate" class="validation-message"></span>
-            </div> <!-- form-group// -->
+                <input asp-for="email" class="form-control" placeholder="אי-מייל" type="email">
+            </div> <!-- form-group//  אימייל-->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                 </div>
-                <input asp-for="Password" class="form-control" placeholder="Create password" type="password">
-                <span asp-validation-for="Password" class="validation-message"></span>
-            </div> <!-- form-group// -->
+                <input asp-for="password" class="form-control" placeholder="סיסמא" type="password">
+            </div> <!-- form-group//  סיסמא-->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                 </div>
-                <input asp-for="PasswordValidator" class="form-control" placeholder="Repeat password" type="password">
-                <span asp-validation-for="PasswordValidator" class="validation-message"></span>
-            </div> <!-- form-group// -->
+                <input class="form-control" placeholder="אישור סיסמא" type="password">
+            </div> <!-- form-group//  אישור סיסמא-->
+            <div class="form-group input-group">
+                <div>סוג חייל:</div>
+                <select class="form-control" asp-for="soldier_type">
+                    <option value="job">ג'וב</option>
+                    <option value="supporter">תומך לחימה</option>
+                    <option value="combat">לוחם</option>
+                </select>
+            </div> <!-- form-group//  סוג חייל-->
+            <div class="form-group input-group">
+                <div>סוג ת"ש":</div>
+                <select class="form-control" asp-for="soldier_tash_type">
+                    <option value="none">אין</option>
+                    <option value="2">ת"ש 2</option>
+                    <option value="3">ת"ש 3</option>
+                    <option value="4">ת"ש 4</option>
+                    <option value="5">ת"ש 5</option>
+                    <option value="6">ת"ש 6</option>
+                </select>
+            </div> <!-- form-group//  סוג ת"ש-->
+            <div class="form-group input-group">
+                <input type="checkbox" class="form-control" asp-for="is_lone_soldier" />
+                חייל בודד
+            </div> <!-- form-group//  חייל בודד-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input type="number" min="0" placeholder="כסף בחשבון כרגע" class="form-control" asp-for="current_money" />
+            </div> <!-- form-group//  כסף זמין-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input type="number" min="0" placeholder="תוספת שכר מהצבא" class="form-control" asp-for="money_addons" />
+            </div> <!-- form-group//  תוספת שכר מהצבא-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input type="number" min="0" placeholder="הכנסות נוספות מחוץ לצבא" class="form-control" asp-for="additional_income" />
+            </div> <!-- form-group//  הכנסות נוספות מחוץ לצבא-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input type="text" placeholder="מטרה לחיסכון" class="form-control" asp-for="target_type" />
+            </div> <!-- form-group//  מטרה לחיסכון-->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input type="number" min="0" placeholder="סכום כסף לחיסכון" class="form-control" asp-for="money_target" />
+            </div> <!-- form-group//  סכום כסף לחיסכון-->
+            <div class="form-group input-group">
+                <input type="number" min="0" max="31" placeholder="ימים בבית" class="form-control" asp-for="days_home">
+            </div> <!-- form-group//  ימי בית-->
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" tag="inputBtn"> @action  </button>
             </div> <!-- form-group// -->
@@ -80,4 +120,4 @@
             </div> <!-- form-group// -->
         </form>
     </article>
-    </div> <!-- card.// -->
+</div> <!-- card.// -->

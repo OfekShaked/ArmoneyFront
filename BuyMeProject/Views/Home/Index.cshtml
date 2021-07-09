@@ -1,23 +1,29 @@
-﻿@model List<Product>
-@{
-    ViewData["Title"] = "Home Page";
-}
-<link rel="stylesheet" href="~/css/shoppingPage.css" />
-<div class="container">
-<div class="row">
-    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Price" class="btn btn-primary">Sort By Price</a></div>
-    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Title" class="btn btn-primary">Sort By Title</a></div>
-    <div class="col"><a asp-action="SortProductsBy" asp-controller="Product" asp-route-sortByType="Date" class="btn btn-primary">Sort By Date</a></div>
-</div>
-</div>
-<div class="shop-container mt-5 mb-5 mr-5 ml-4">
-    @foreach (var product in Model)
-    {
-        <div class="ad-item">
-            <partial name="_CartItem" model="product" />
-        </div>
-    }
-</div>
-@section Scripts {
-    <script src="~/js/cartItem.js"></script>
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://www.idf.il/media/16195/whatsapp-image-2017-10-11-at-113432-am.jpeg?anchor=center&mode=crop&width=450&height=300&rnd=131682640660000000');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="homePage">הדרך שלכם להצלחה עוברת אצלנו.</h2>
+
+    <h2 class="homePage">
+        במהלך השירות שלכם כסף רב יעבור בין היידים שלכם,
+        בואו תלמדו איך לנצל אותו לטובתכם האישית ולמטרות אותם תרצו להשיג בשחרור המיוחל.
+    </h2>
+    <img src="        https://media.giphy.com/media/5e22CwMaD4oMSk3Qpc/giphy.gif" />
+    <div>
+        <h1 class="homePage">
+            למידע נוסף הירשמו לאתר שלנו!!!!
+        </h1>
+    </div>
+
+</body>
+</html>

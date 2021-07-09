@@ -3,6 +3,8 @@ using BuyMeProject.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,12 +21,15 @@ namespace BuyMeProject.Controllers
     {
         IAccountService _accountService;
         SerializeService _serializeService;
-    
+        HttpClient client = new HttpClient();
+        string apiUrl;
+
+
         public AccountController(IAccountService accountService, SerializeService serializeService
             ,
             IConfiguration configuration)
         {
-            //apiUrl = configuration.GetValue(typeof(string), "ApiUrl") as string;
+            apiUrl = configuration.GetValue(typeof(string), "ApiUrl") as string;
             _accountService = accountService;
             _serializeService = serializeService;
         }
@@ -36,41 +41,28 @@ namespace BuyMeProject.Controllers
                 ViewBag.PageHeader = "Registration Page";
                 return View("~/Views/Home/Registration.cshtml", newUser); //New user is not valid return to same page with errors.
             }
+            var myContent = JsonConvert.SerializeObject(newUser);
+            var buffer = Encoding.UTF8.GetBytes(myContent);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var result = client.PostAsync(apiUrl + "/signup", byteContent).Result;
+            var responseContent = result.Content.ReadAsStringAsync().Result;
             //User is valid add to cookies and continue to main page.
-            LoginToCookie(newUser.UserName);
+            //LoginToCookie(newUser.UserName);
             User newUserAccount = UserModelToUser(newUser);
             _accountService.Register(newUserAccount);
             return RedirectToAction("Index", "Home");
         }
-        public IActionResult Update(UserModel userToUpdate)
-        {
-            if (String.IsNullOrWhiteSpace(userToUpdate.Password)) //Check if password is empty if it is dont change it
-            {
-                ModelState.Remove("Password");
-                ModelState.Remove("PasswordValidator");
-            }
-            ModelState.Remove("UserName");
-            userToUpdate.UserName = Request.Cookies["userName"];
-            if (!ModelState.IsValid)
-            {
-                ViewBag.PageHeader = "Update User Page";
-                return View("~/Views/Home/Registration.cshtml", userToUpdate);
-            }
-            //Update user if everything is ok.
-            User updatedUser = UserModelToUser(userToUpdate);
-            _accountService.UpdateUser(updatedUser);
-            return RedirectToAction("Index", "Home");
-        }
+
         private static User UserModelToUser(UserModel newUser)
         {
             return new User
             {
-                UserName = newUser.UserName,
-                BirthDate = newUser.BirthDate,
-                Email = newUser.Email,
-                FirstName = newUser.FirstName,
-                LastName = newUser.LastName,
-                Password = newUser.Password
+                Email = newUser.email,
+                FirstName = newUser.first_name,
+                LastName = newUser.last_name,
+                Password = newUser.password
             };
         }
 
@@ -82,7 +74,15 @@ namespace BuyMeProject.Controllers
                 TempData["loginModel"] = _serializeService.ObjectToString(login);
                 return ReturnToPreviousPageOrDefault();
             }
-            LoginToCookie(login.Email); //login Succecfully
+            var myContent = JsonConvert.SerializeObject(new { email = login.email, password = login.password });
+            var buffer = Encoding.UTF8.GetBytes(myContent);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var result = client.PostAsync(apiUrl + "/login", byteContent).Result;
+            var responseContent = result.Content.ReadAsStringAsync().Result;
+            dynamic d = JObject.Parse(responseContent);
+            LoginToCookie(d.user_id.ToString()); //login Succecfully
             return ReturnToPreviousPageOrDefault();
         }
 

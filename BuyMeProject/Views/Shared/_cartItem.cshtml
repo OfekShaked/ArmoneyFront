@@ -1,7 +1,5 @@
 ﻿@model Product
-@{
-    var username = Context.Request.Cookies["userName"];
-}
+@{ var username = Context.Request.Cookies["userName"]; }
 <link rel="stylesheet" href="~/css/cartItem.css" />
 <div class="card">
     <div class="card-body">
@@ -27,9 +25,9 @@
     </div>
     <h3 class="mb-0 font-weight-semibold">$@Model.Price</h3>
     <form asp-action="ProductDetails" asp-controller="Product" asp-route-productId="@Model.Id">
-        <div class="mb-4"><button type="submit" class="btn bg-info" ><i class="fas fa-info mr-2"></i>More details</button> </div>
+        <div class="mb-4"><button type="submit" class="btn bg-info"><i class="fas fa-info mr-2"></i>More details</button> </div>
     </form>
-        <form method="post" asp-action="AddProductToCart" asp-controller="Product">
+    <form method="post" asp-action="AddProductToCart" asp-controller="Product">
         <input type="hidden" name="username" value="@username" />
         <input type="hidden" name="productId" value="@Model.Id" />
         <button type="submit" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
