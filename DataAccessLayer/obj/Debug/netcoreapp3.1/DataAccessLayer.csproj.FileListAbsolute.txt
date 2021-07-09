@@ -28,3 +28,18 @@ C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLa
 C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
 C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
 C:\Users\msvs\Downloads\asp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\talor\OneDrive\Desktop\New folder (3)\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache

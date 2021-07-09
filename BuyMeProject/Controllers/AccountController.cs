@@ -2,10 +2,14 @@
 using BuyMeProject.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
@@ -15,15 +19,19 @@ namespace BuyMeProject.Controllers
     {
         IAccountService _accountService;
         SerializeService _serializeService;
-        public AccountController(IAccountService accountService, SerializeService serializeService)
+    
+        public AccountController(IAccountService accountService, SerializeService serializeService
+            ,
+            IConfiguration configuration)
         {
+            //apiUrl = configuration.GetValue(typeof(string), "ApiUrl") as string;
             _accountService = accountService;
             _serializeService = serializeService;
         }
         [HttpPost]
         public IActionResult Register(UserModel newUser)
         {
-            if (!ModelState.IsValid) 
+            if (!ModelState.IsValid)
             {
                 ViewBag.PageHeader = "Registration Page";
                 return View("~/Views/Home/Registration.cshtml", newUser); //New user is not valid return to same page with errors.
@@ -43,7 +51,7 @@ namespace BuyMeProject.Controllers
             }
             ModelState.Remove("UserName");
             userToUpdate.UserName = Request.Cookies["userName"];
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ViewBag.PageHeader = "Update User Page";
                 return View("~/Views/Home/Registration.cshtml", userToUpdate);
@@ -69,12 +77,12 @@ namespace BuyMeProject.Controllers
         [HttpPost]
         public IActionResult Login(LoginModel login)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 TempData["loginModel"] = _serializeService.ObjectToString(login);
                 return ReturnToPreviousPageOrDefault();
             }
-            LoginToCookie(login.UserName); //login Succecfully
+            LoginToCookie(login.Email); //login Succecfully
             return ReturnToPreviousPageOrDefault();
         }
 

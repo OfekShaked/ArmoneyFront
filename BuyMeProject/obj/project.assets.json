@@ -311,6 +311,15 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1799,6 +1808,33 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -4957,34 +4993,25 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Common >= 1.0.0",
-      "DataAccessLayer >= 1.0.0"
+      "DataAccessLayer >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\msvs\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\talor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msvs\\Downloads\\asp\\BuyMeProject\\BuyMeProject.csproj",
+      "projectUniqueName": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\BuyMeProject\\BuyMeProject.csproj",
       "projectName": "BuyMeProject",
-      "projectPath": "C:\\Users\\msvs\\Downloads\\asp\\BuyMeProject\\BuyMeProject.csproj",
-      "packagesPath": "C:\\Users\\msvs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msvs\\Downloads\\asp\\BuyMeProject\\obj\\",
+      "projectPath": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\BuyMeProject\\BuyMeProject.csproj",
+      "packagesPath": "C:\\Users\\talor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\BuyMeProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\msvs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\talor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4997,11 +5024,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\msvs\\Downloads\\asp\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\msvs\\Downloads\\asp\\Common\\Common.csproj"
+            "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\Common\\Common.csproj"
             },
-            "C:\\Users\\msvs\\Downloads\\asp\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\msvs\\Downloads\\asp\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\talor\\OneDrive\\Desktop\\New folder (3)\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -5015,6 +5042,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -5025,6 +5058,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.13, 3.1.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5033,7 +5072,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }
